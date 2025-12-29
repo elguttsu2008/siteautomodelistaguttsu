@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* LOGO */
+.logo {
+    max-width: 650px;
+    margin-bottom: 10px;
+}
 
 /* CORPO DA PÁGINA */
 body {
@@ -25,8 +30,8 @@ header h1 {
 }
 
 header h2 {
-    color: #bdbdbd;
-    font-size: 16px;
+    color: #e10600;
+    font-size: 32px;
 }
 
 /* CONTEÚDO PRINCIPAL */
@@ -76,3 +81,61 @@ footer {
     color: white;
     border-radius: 10px;
 }
+.card h4 {
+    color: #e10600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+/* SUBTÍTULOS */
+.card h4 {
+    color: #e10600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* LINHA DO TEMPO */
+.timeline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.timeline li {
+    background-color: #2a2a2a;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-left: 4px solid #e10600;
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* BLOCO PADRÃO DE IMAGEM + TEXTO */
+.topic {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.topic img {
+    width: 200px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10spx;
+}
+
+.topic .text h4 {
+    color: #e10600;
+    margin-bottom: 5px;
+}
+
+/* LINHA DO TEMPO */
+.timeline-item img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
